@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <style>
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="images/shopping-bag-icon.png" alt="site icon">
+                <span class="text-uppercase fw-lighter ms-2">Shopping</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class = "fa fa-shopping-cart"></i>
+                    <span id="cart-count" class = "position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
+                </button>
+
+                <button type="button" class="btn position-relative">
+                    <i class = "fa fa-search"></i>
+                </button>
+            </div>
+
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#index.html">collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="index.html">popular</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="Contact.html">Contact us</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <br>
+    <br>
+    <br>
+
+    <!-- header -->
+    <!-- Map Container -->
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13742.77244773982!2d31.0188897!3d30.5579735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d7223ff2d63f%3A0x9d531b61c0ebb81b!2sITI%20Menofia%20Branch%2C%20Creativa!5e0!3m2!1sen!2seg!4v1693071198265!5m2!1sen!2seg"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- end of header -->
+    <div class="row">
+
+        <div class="col-lg-6 contact_col">
+            <div class="contact_contents">
+                <h1>Contact Us</h1>
+                <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
+                <div>
+                    <p>(+20) 1024804236</p>
+                    <p>zaidibrahim404@gmail.com</p>
+                </div>
+                <div>
+                    <p>mm</p>
+                </div>
+                <div>
+                    <p>Open hours: 8.00-18.00 Mon-Fri</p>
+                    <p>Friday: Closed</p>
+                </div>
+            </div>
+
+            <!-- Follow Us -->
+
+            <div class="follow_us_contents">
+                <h1>Follow Us</h1>
+                <div>
+                    <ul class="list-unstyled d-flex ">
+                        <li>
+                            <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                <i class="fab fa-facebook-f "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                <i class="fab fa-twitter "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                <i class="fab fa-instagram "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                <i class="fab fa-pinterest "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 get_in_touch_col">
+            <div class="get_in_touch_contents">
+                <h1>Get In Touch With Us!</h1>
+                <p>Fill out the form below to recieve a free and confidential.</p>
+                <form id="myForm" action="post">
+                    <div>
+                        <input id="input_name" class="form_input input_name input_ph" type="text" name="name" placeholder="Name" >
+                        <input id="input_email" class="form_input input_email input_ph" type="email" name="email" placeholder="Email" >
+                        <input id="input_website" class="form_input input_website input_ph" type="url" name="website" placeholder="Website" >
+                        <textarea id="input_message" class="input_ph input_message" name="message" placeholder="Message" rows="3" ></textarea>
+                    </div>
+                    <div>
+                        <button id="review_submit" type="submit" class="red_button message_submit_btn trans_300" value="Submit">send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+                   </button>
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="bg-dark py-5 ">
+        <div class="container ">
+            <div class="row text-white g-4 ">
+                <div class="col-md-6 col-lg-3 ">
+                    <a class="text-uppercase text-decoration-none brand text-white " href="index.html ">Attire</a>
+                    <p class="text-white text-muted mt-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ">
+                    <h5 class="fw-light ">Links</h5>
+                    <ul class="list-unstyled ">
+                        <li class="my-3 ">
+                            <a href="# " class="text-white text-decoration-none text-muted ">
+                                <i class="fas fa-chevron-right me-1 "></i> Home
+                            </a>
+                        </li>
+                        <li class="my-3 ">
+                            <a href="# " class="text-white text-decoration-none text-muted ">
+                                <i class="fas fa-chevron-right me-1 "></i> Collection
+                            </a>
+                        </li>
+                        <li class="my-3 ">
+                            <a href="# " class="text-white text-decoration-none text-muted ">
+                                <i class="fas fa-chevron-right me-1 "></i> contact us
+                            </a>
+                        </li>
+                        <li class="my-3 ">
+                            <a href="# " class="text-white text-decoration-none text-muted ">
+                                <i class="fas fa-chevron-right me-1 "></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ">
+                    <h5 class="fw-light mb-3 ">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted ">
+                        <span class="me-3 ">
+                        <i class = "fas fa-map-marked-alt "></i>
+                    </span>
+                        <span class="fw-light ">
+                        cairo/egypt
+                    </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted ">
+                        <span class="me-3 ">
+                        <i class = "fas fa-envelope "></i>
+                    </span>
+                        <span class="fw-light ">
+                        zaidibrahim404@gmail.com
+                    </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted ">
+                        <span class="me-3 ">
+                        <i class = "fas fa-phone-alt "></i>
+                    </span>
+                        <span class="fw-light ">
+                        +201024804236
+                    </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ">
+                    <h5 class="fw-light mb-3 ">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex ">
+                            <li>
+                                <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                    <i class="fab fa-facebook-f "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                    <i class="fab fa-twitter "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                    <i class="fab fa-instagram "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="# " class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                    <i class="fab fa-pinterest "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js "></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js "></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js "></script>
+    <!-- custom js -->
+    <script src="js/script.js "></script>
+    <script src="js/header.js "></script>
+    <script>
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener('click', topFunction);
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+   <script>
+    document.getElementById('myForm').addEventListener('submit', function (e) {
+        
+        e.preventDefault();
+
+      
+        const errorMessages = document.querySelectorAll('.error-message');
+        errorMessages.forEach(message => message.remove());
+
+        
+        const nameInput = document.getElementById('input_name');
+        const emailInput = document.getElementById('input_email');
+        const websiteInput = document.getElementById('input_website');
+        const messageInput = document.getElementById('input_message');
+
+        let isValid = true;
+
+        if (nameInput.value.trim() === '') {
+            displayError(nameInput, 'Name is required.');
+            isValid = false;
+        }
+
+        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        if (!emailRegex.test(emailInput.value.trim())) {
+            displayError(emailInput, 'Valid email is required.');
+            isValid = false;
+        }
+
+        if (websiteInput.value.trim() === '') {
+            displayError(websiteInput, 'Website URL is required.');
+            isValid = false;
+        }
+
+        if (messageInput.value.trim() === '') {
+            displayError(messageInput, 'Please, write us a message.');
+            isValid = false;
+        }
+
+        if (isValid) {
+          
+            alert('Form is valid and can be submitted.');
+           
+        }
+    });
+
+    function displayError(inputElement, errorMessage) {
+        const errorElement = document.createElement('div');
+        errorElement.className = 'error-message';
+        errorElement.innerText = errorMessage;
+        inputElement.parentElement.appendChild(errorElement);
+    }
+</script>
+
+</body>
+
+</html>
